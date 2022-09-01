@@ -47,8 +47,8 @@ current_file = 'hotfixes_current.json'
 # hotfix file, and the one put into the point-in-time dir without any store-
 # specific suffix.  All other stores' hotfixes will only be written out as
 # point-in-time hotfixes if they differ from the first one.
-#stores = ['epic', 'steam']
-stores = ['epic']
+stores = ['epic', 'steam']
+#stores = ['epic']
 
 def get_hotfix(store, hotfix_url, cache_file):
     """
